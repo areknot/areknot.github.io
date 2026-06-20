@@ -1,27 +1,40 @@
+<!doctype html>
 <html>
-  <header>
+  <head>
     <title>Kentaro Kobayashi</title>
-    <meta charset="UTF-8">
-    <style>
-      :target {
-	  background-color: #F5F5D7;
-      }
-    </style>
-  </header>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+  </head>
   <body>
     <h1>Kentaro Kobayashi (小林 賢太朗)</h1>
 
-    <p>
-      I am a Ph.D. student at <a href="https://www.logic.cs.tsukuba.ac.jp/index.html">Programming Logic Lab.</a>, <a href="https://www.tsukuba.ac.jp/">University of Tsukuba</a>, supervised by <a href="https://www.cs.tsukuba.ac.jp/~kam">Yukiyoshi Kameyama</a>.
-      My research interests are in programming language theory; specifically, I have been interested in the theory of control operators and continuations---their type systems, logics, and semantics.
-    </p>
-    <p>
-      I am also working as a research assistant at <a href="https://www.aist.go.jp/index_en.html">AIST</a> (National Institute of Advanced Industrial Science and Technology) and working on the formalization and verification of statistical programs.
-    </p>
+    <section>
+      <h2>About</h2>
+      <p>
+        I am a Ph.D. student
+        at <a href="https://www.logic.cs.tsukuba.ac.jp/index.html">Programming
+        Logic Lab.</a>, <a href="https://www.tsukuba.ac.jp/">University of
+        Tsukuba</a>, supervised
+        by <a href="https://www.cs.tsukuba.ac.jp/~kam">Yukiyoshi Kameyama</a>.
+        My research interests are in theoretical aspects of computation and
+        programming languages. Specifically, I have been interested in the
+        theory of control operators and continuations&mdash;their type systems,
+        logics, and semantics.
+      </p>
+      <p>
+        I am also a research assistant in
+        the <a href="https://www.ipri.aist.go.jp/cctrg/en/index.html">Continuum
+        Computing Trustworthiness Research Group</a>
+        at <a href="https://www.aist.go.jp/index_en.html">AIST</a> (National
+        Institute of Advanced Industrial Science and Technology), where I work
+        on formal verification of statistical programs.
+      </p>
+    </section>
 
     <ul>
       <li>
-	<strong>E-mail</strong> &lt;first name&gt;.&lt;last name&gt;@acm.org
+	<strong>E-mail</strong> kentaro.kobayashi [at] acm.org
       </li>
     </ul>
     
@@ -29,24 +42,159 @@
     <ul>
       <li>
         <div id = "APLAS2025">
-          Expressive Power of One-Shot Control Operators and Coroutines<br/>
+          <strong><a href="https://doi.org/10.1007/978-981-95-3585-9_5">Expressive
+          Power of One-Shot Control Operators and Coroutines</a></strong><br/>
           Kentaro Kobayashi and Yukiyoshi Kameyama.<br/>
-          <i>Proc. of the 23rd Asian Symposium on Programming Languages and Systems (APLAS2025), Bengaluru, India, October 2025.</i>
-        </div>
-      </li>
-      <br/>
-      <li>
-	<div id = "CAV2025">
-          StatWhy: Formal Verification Tool for Statistical Hypothesis Testing Programs<br/>
-	  Yusuke Kawamoto, Kentaro Kobayashi, and Kohei Suenaga. [alphabetical authorship]<br/>
-          <i>Proc. of the 37th International Conference on Computer Aided Verification (CAV2025), Zagreb, Croatia, July 2025.</i><br/>
+          <i>Proc. of the 23rd Asian Symposium on Programming Languages and
+          Systems (APLAS 2025), Bengaluru, India, October 2025.</i>
           <ul>
             <li>
-              <a href="https://github.com/fm4stats/statwhy">The repository of our tool StatWhy</a>
+              Full version with proofs available
+              at <a href="https://doi.org/10.48550/arXiv.2509.11901">arXiv</a>
+            </li>
+          </ul>
+        </div>
+      </li>
+      <li>
+	<div id = "CAV2025">
+          <strong><a href="https://doi.org/10.1007/978-3-031-98679-6_10">StatWhy:
+	  Formal Verification Tool for Statistical Hypothesis Testing
+	  Programs</a></strong><br/> Yusuke Kawamoto, Kentaro Kobayashi, and
+	  Kohei Suenaga. [authors in alphabetical order]<br/>
+          <i>Proc. of the 37th International Conference on Computer Aided
+          Verification (CAV 2025), Zagreb, Croatia, July 2025.</i><br/>
+          <ul>
+            <li>
+              <a href="https://github.com/fm4stats/statwhy">The repository of
+              StatWhy</a>
             </li>
           </ul>
 	</div>
       </li>
+      <li>
+        <div id = "PPL2025a">
+          <strong>Simulating One-Shot Effect Handlers Using
+          Coroutines</strong><br/> Kentaro Kobayashi and Yukiyoshi
+          Kameyama.<br/>
+          <i>Proc. of the 27th Workshop on Programming and Programming Languages
+          (PPL 2025), Aichi, Japan, March 2025.</i>
+        </div>
+      </li>
     </ul>
+
+    <h2>Talks</h2>
+    <ul>
+      <li>
+        <div id="PPL2026">
+          <strong>StatWhy: 仮説検定プログラムのための形式検証ツール</strong><br>
+          Yusuke Kawamoto, Kentaro Kobayashi, and Kohei Suenaga.<br>
+          <em>Oral presentation at the 28th Workshop on Programming and
+          Programming Languages (PPL 2026), Kagawa, Japan, March 2026.</em>
+        </div>
+      </li>
+      <li>
+        <div id="PPL2025b">
+          <strong>仮説検定プログラムのための形式検証ツール StatWhy</strong><br>
+          Yusuke Kawamoto, Kentaro Kobayashi, and Kohei Suenaga.<br>
+          <em>Poster presentation at the 27th Workshop on Programming and
+          Programming Languages (PPL 2025), Aichi, Japan, March 2025.</em>
+        </div>
+      </li>
+      <li>
+        <div id="PPL2024">
+          <strong>適切な仮説検定を実現するための OCaml モジュール
+          StatEff</strong><br> Kentaro Kobayashi and Yusuke Kawamoto.<br>
+          <em>Poster presentation at the 26th Workshop on Programming and
+          Programming Languages (PPL 2024), Niigata, Japan, March 2024.</em>
+        </div>
+      </li>
+    </ul>
+
+
+    <h2>Activities</h2>
+    <ul>
+      <li>
+        <strong>Research Assistant</strong>,
+        <a href="https://www.ipri.aist.go.jp/cctrg/en/index.html">Continuum
+          Computing Trustworthiness Research Group</a>,
+        <a href="https://www.aist.go.jp/index_en.html">AIST</a>,
+        August 2023&ndash;present.
+        Supervised by
+        <a href="https://staff.aist.go.jp/yusuke.kawamoto/">Yusuke Kawamoto</a>.
+      </li>
+
+      <li>
+        <strong>Teaching</strong>
+        <ul>
+          <li>
+            Teaching Assistant for <em>Introduction to Information Science</em>,
+            University of Tsukuba.
+            April&ndash;June 2024.
+          </li>
+          <li>
+            <em>Mathematics for Informatics A</em>,
+            led one exercise session,
+            University of Tsukuba.
+            April 2025.
+          </li>
+          <li>
+            Teaching Assistant for <em>Advanced Course in Programming Languages</em>,
+            University of Tsukuba.
+            May&ndash;June 2026.
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Service</strong>
+        <ul>
+          <li>
+            Artifact Evaluation Committee Member,
+            <a href="https://www.qest-formats.org/">QEST+FORMATS</a> 2025 and 2026.
+          </li>
+          <li>
+            Student Volunteer,
+            <a href="https://functional-logic.org/events/flops/2026/">FLOPS 2026</a>.
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Research Grant</strong>
+        <ul>
+          <li>
+            Young Researcher Development Program,
+            Graduate School of Systems and Information Engineering,
+            University of Tsukuba, 2025.
+          </li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <strong>Ph.D. student</strong><br>
+        Department of Computer Science,
+        University of Tsukuba,
+        April 2025&ndash;present.<br>
+        Supervisor: Yukiyoshi Kameyama.
+      </li>
+
+      <li>
+        <strong>M.Eng. in Computer Science</strong><br>
+        University of Tsukuba,
+        March 2025.<br>
+        Supervisor: Yukiyoshi Kameyama.
+      </li>
+
+      <li>
+        <strong>B.S. in Mathematics</strong><br>
+        The University of Tokyo,
+        March 2023.<br>
+      </li>
+    </ul>
+
   </body>
 </html>
+
